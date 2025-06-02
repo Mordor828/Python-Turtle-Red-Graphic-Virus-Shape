@@ -12,3 +12,11 @@ t.speed(0)
 t.penup()
 t.goto(0, 150)
 t.pendown()
+
+while(True):
+    t.forward(a)
+    t.right(b)
+    a += 3
+    b += 1
+    if b == 204:
+        break
